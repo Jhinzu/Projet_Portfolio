@@ -1,0 +1,39 @@
+.Container_nav_presentation
+{
+    display: flex;
+    flex-flow: row;
+    h3
+    {
+        padding-left: 100px;
+        color: rgb(104, 104, 104);
+        font-variant-caps: all-small-caps;
+        font-size: 1.2;
+        font-family: "Arial black" impact;
+    }
+}
+.Box_navbar_presentation
+{
+    
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 100%;
+    
+    article
+    {
+        font-variant-caps: all-small-caps;
+        font-family: "Arial black" impact;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 12%;
+        color: black;
+        font-size: 1.2em;
+        &:hover
+        {
+            background-color: black;
+            color: white;
+        }
+        
+    }
+}

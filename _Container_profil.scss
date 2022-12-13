@@ -5,15 +5,29 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 190%;
-    height: 800px;
+    height: 700px;
 }
 .Box_titre_profil
 {
     display: flex;
+    align-items: flex-end;
     height: 100%;
+    padding-left: 50px;
 }
 .titre_profil
 {
-    color: red;
-    font-size: 2em;
+    p 
+    {
+        font-variant-caps: all-small-caps;
+        margin-top: 0px;
+        font-size: 2em;
+        color: rgb(236, 234, 234);
+    }
+    h1
+    {
+        font-variant-caps: all-small-caps;
+        font-size: 3em;
+        color: white;
+        font-family: "Arial black" impact ;
+    }
 }
