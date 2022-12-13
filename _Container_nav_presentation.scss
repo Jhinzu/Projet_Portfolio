@@ -8,7 +8,8 @@
         color: rgb(104, 104, 104);
         font-variant-caps: all-small-caps;
         font-size: 1.2;
-        font-family: "Arial black" impact;
+        font-family: "Arial black",impact;
+        letter-spacing: 5px;
     }
 }
 .Box_navbar_presentation
@@ -18,16 +19,15 @@
     flex-flow: row;
     justify-content: center;
     width: 100%;
-    
     article
     {
+        font-weight: lighter;
         font-variant-caps: all-small-caps;
-        font-family: "Arial black" impact;
         display: flex;
         justify-content: space-around;
         align-items: center;
         width: 12%;
-        color: black;
+        color: rgb(138, 138, 138);
         font-size: 1.2em;
         &:hover
         {

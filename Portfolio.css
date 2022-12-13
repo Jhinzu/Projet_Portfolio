@@ -1,8 +1,8 @@
 .Container_profil {
-  background-image: linear-gradient(rgba(125, 125, 146, 0.5), rgba(123, 123, 253, 0.5)), url("Images/pdp.jpg");
+  background-image: linear-gradient(rgba(125, 125, 146, 0.5), rgba(123, 123, 253, 0.5)), url("Images/avatar_Design.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 190%;
+  background-size: 300% 300%;
   height: 700px;
 }
 
@@ -35,7 +35,8 @@
   color: rgb(104, 104, 104);
   font-variant-caps: all-small-caps;
   font-size: 1.2;
-  font-family: "Arial black" impact;
+  font-family: "Arial black", impact;
+  letter-spacing: 5px;
 }
 
 .Box_navbar_presentation {
@@ -45,16 +46,38 @@
   width: 100%;
 }
 .Box_navbar_presentation article {
+  font-weight: lighter;
   font-variant-caps: all-small-caps;
-  font-family: "Arial black" impact;
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 12%;
-  color: black;
+  color: rgb(138, 138, 138);
   font-size: 1.2em;
 }
 .Box_navbar_presentation article:hover {
   background-color: black;
   color: white;
+}
+
+.Container_presentation {
+  background-color: rgb(226, 226, 226);
+  height: 500px;
+}
+.Container_presentation .Ligne {
+  border: 1px black solid;
+  margin-right: 45%;
+  margin-left: 45%;
+}
+
+.Box_texte_presentation {
+  text-align: center;
+  padding-top: 50px;
+}
+.Box_texte_presentation h2 {
+  font-weight: lighter;
+  font-variant-caps: all-small-caps;
+  color: rgb(82, 82, 82);
+  font-size: 2em;
+  letter-spacing: 5px;
 }/*# sourceMappingURL=Portfolio.css.map */
