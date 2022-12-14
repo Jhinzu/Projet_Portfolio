@@ -1,33 +1,51 @@
-.Container_profil
+@media screen and ( min-width:360px )
 {
-    background-image: linear-gradient(rgba(125, 125, 146, 0.5), rgba(123, 123, 253, 0.5)),
-    url("Images/avatar_Design.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 300% 300%;
-    height: 600px;
-}
-.Box_titre_profil
-{
-    display: flex;
-    align-items: flex-end;
-    height: 100%;
-    padding-left: 50px;
-}
-.titre_profil
-{
-    p 
+    .Container_profil
     {
-        font-variant-caps: all-small-caps;
-        margin-top: 0px;
-        font-size: 2em;
-        color: rgb(236, 234, 234);
+        background-size: 200% 200%;
     }
-    h1
+    .Box_titre_profil
     {
-        font-variant-caps: all-small-caps;
-        font-size: 3em;
-        color: white;
-        font-family: "Arial black" impact ;
+        padding: 0px;
+        .titre_profil
+        {
+            margin-left: 20px;
+            margin-top: 200px;
+            font-size: 1.5vw;
+        }
+    }
+
+    .Container_profil
+    {
+        background-image: linear-gradient(rgba(125, 125, 146, 0.5), rgba(123, 123, 253, 0.5)),
+        url("Images/avatar_Design.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 300% 300%;
+        height: 600px;
+    }
+    .Box_titre_profil
+    {
+        display: flex;
+        align-items: flex-end;
+        height: 100%;
+        padding-left: 50px;
+    }
+    .titre_profil
+    {
+        p 
+        {
+            font-variant-caps: all-small-caps;
+            margin-top: 0px;
+            font-size: 2em;
+            color: rgb(236, 234, 234);
+        }
+        h1
+        {
+            font-variant-caps: all-small-caps;
+            font-size: 3em;
+            color: white;
+            font-family: "Arial black" impact ;
+        }
     }
 }

@@ -1,39 +1,56 @@
-.Container_nav_presentation
+@media screen and ( min-width:360px )
 {
-    display: flex;
-    flex-flow: row;
     h3
     {
-        padding-left: 100px;
-        color: rgb(104, 104, 104);
-        font-variant-caps: all-small-caps;
-        font-size: 1.2;
-        font-family: "Arial black",impact;
-        letter-spacing: 5px;
+        display: none;
     }
-}
-.Box_navbar_presentation
-{
-    
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    width: 100%;
-    article
+    .Container_nav_presentation
     {
-        font-weight: lighter;
-        font-variant-caps: all-small-caps;
+        height: 50px;
+    }
+    .Box_navbar_presentation
+    {
         display: flex;
         justify-content: space-around;
-        align-items: center;
-        width: 12%;
-        color: rgb(138, 138, 138);
-        font-size: 1.2em;
-        &:hover
+    }
+    .Container_nav_presentation
+    {
+        display: flex;
+        flex-flow: row;
+        h3
         {
-            background-color: black;
-            color: white;
+            padding-left: 100px;
+            color: rgb(104, 104, 104);
+            font-variant-caps: all-small-caps;
+            font-size: 1.2;
+            font-family: "Arial black",impact;
+            letter-spacing: 5px;
         }
+    }
+    .Box_navbar_presentation
+    {
         
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        width: 100%;
+        article
+        {
+            font-weight: lighter;
+            font-variant-caps: all-small-caps;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 12%;
+            color: rgb(138, 138, 138);
+            height: 100%;
+            font-size: 2vw;
+            &:hover
+            {
+                background-color: black;
+                color: white;
+            }
+            
+        }
     }
 }

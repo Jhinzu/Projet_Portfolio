@@ -1,53 +1,62 @@
-.Container_presentation
+@media screen and ( min-width:360px )
 {
-    background-color:  rgb(226, 226, 226) ;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    .Ligne
+    .Container_presentation
     {
-        border: 1px black solid;
-        margin-right: 45%;
-        margin-left: 45%;
+        padding-bottom:30px;
     }
-}
-.Box_texte_presentation
-{
-    display: flex;
-    flex-flow: column;
-    text-align: center;
-    width: 80%;
-    height: 100%;
-    
-    h2
+    .Container_presentation
     {
-        font-weight: lighter;
-        font-variant-caps: all-small-caps;
-        color: rgb(82, 82, 82);
-        font-size: 2em;
-        letter-spacing: 5px;
-        margin-bottom: 5%;
-        margin-top: 0px;
-        padding-top: 10%;
+        background-color:  rgb(226, 226, 226) ;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .Ligne
+        {
+            background-color: black;
+            border: 1px black solid;
+            margin-right: 45%;
+            margin-left: 45%;
+        }
     }
-    .Box_texte_p
+    .Box_texte_presentation
     {
-        height: 50%;
-        p
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        width: 80%;
+        height: 100%;
+        
+        h2
         {
-        color: rgb(82, 82, 82);
-        font-weight: lighter;
-        font-variant-caps: all-small-caps;
+            font-weight: lighter;
+            font-variant-caps: all-small-caps;
+            color: rgb(82, 82, 82);
+            font-size: 2em;
+            letter-spacing: 5px;
+            margin-bottom: 5%;
+            margin-top: 0px;
+            padding-top: 10%;
         }
-        span
+        .Box_texte_p
         {
-            font-weight: bold;
-            font-style: italic;
-        }
-        .blue
-        {
-            color: rgb(117, 200, 255);
+            height: 50%;
+            p
+            {
+            font-size: 1.5em;
+            color: rgb(82, 82, 82);
+            font-weight: lighter;
+            font-variant-caps: all-small-caps;
+            }
+            span
+            {
+                font-weight: bold;
+                font-style: italic;
+            }
+            .blue
+            {
+                color: rgb(117, 200, 255);
+            }
         }
     }
 }

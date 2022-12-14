@@ -1,4 +1,4 @@
-@media screen and ( min-width:360px ) and ( max-width:1300px )
+@media screen and ( min-width:360px )
 {
     .Container_service
     {
@@ -25,6 +25,7 @@
         }
         .Box_bulle_service
         {
+        margin-top: 24px;
         display: flex;
         align-items: center;
         justify-content: center;

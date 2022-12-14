@@ -1,112 +1,4 @@
-.Container_profil {
-  background-image: linear-gradient(rgba(125, 125, 146, 0.5), rgba(123, 123, 253, 0.5)), url("Images/avatar_Design.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 300% 300%;
-  height: 600px;
-}
-
-.Box_titre_profil {
-  display: flex;
-  align-items: flex-end;
-  height: 100%;
-  padding-left: 50px;
-}
-
-.titre_profil p {
-  font-variant-caps: all-small-caps;
-  margin-top: 0px;
-  font-size: 2em;
-  color: rgb(236, 234, 234);
-}
-.titre_profil h1 {
-  font-variant-caps: all-small-caps;
-  font-size: 3em;
-  color: white;
-  font-family: "Arial black" impact;
-}
-
-.Container_nav_presentation {
-  display: flex;
-  flex-flow: row;
-}
-.Container_nav_presentation h3 {
-  padding-left: 100px;
-  color: rgb(104, 104, 104);
-  font-variant-caps: all-small-caps;
-  font-size: 1.2;
-  font-family: "Arial black", impact;
-  letter-spacing: 5px;
-}
-
-.Box_navbar_presentation {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  width: 100%;
-}
-.Box_navbar_presentation article {
-  font-weight: lighter;
-  font-variant-caps: all-small-caps;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 12%;
-  color: rgb(138, 138, 138);
-  font-size: 1.2em;
-}
-.Box_navbar_presentation article:hover {
-  background-color: black;
-  color: white;
-}
-
-.Container_presentation {
-  background-color: rgb(226, 226, 226);
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.Container_presentation .Ligne {
-  border: 1px black solid;
-  margin-right: 45%;
-  margin-left: 45%;
-}
-
-.Box_texte_presentation {
-  display: flex;
-  flex-flow: column;
-  text-align: center;
-  width: 80%;
-  height: 100%;
-}
-.Box_texte_presentation h2 {
-  font-weight: lighter;
-  font-variant-caps: all-small-caps;
-  color: rgb(82, 82, 82);
-  font-size: 2em;
-  letter-spacing: 5px;
-  margin-bottom: 5%;
-  margin-top: 0px;
-  padding-top: 10%;
-}
-.Box_texte_presentation .Box_texte_p {
-  height: 50%;
-}
-.Box_texte_presentation .Box_texte_p p {
-  color: rgb(82, 82, 82);
-  font-weight: lighter;
-  font-variant-caps: all-small-caps;
-}
-.Box_texte_presentation .Box_texte_p span {
-  font-weight: bold;
-  font-style: italic;
-}
-.Box_texte_presentation .Box_texte_p .blue {
-  color: rgb(117, 200, 255);
-}
-
-@media screen and (min-width: 360px) and (max-width: 1300px) {
+@media screen and (min-width: 360px) {
   .Container_profil {
     background-size: 200% 200%;
   }
@@ -118,8 +10,33 @@
     margin-top: 200px;
     font-size: 1.5vw;
   }
+  .Container_profil {
+    background-image: linear-gradient(rgba(125, 125, 146, 0.5), rgba(123, 123, 253, 0.5)), url("Images/avatar_Design.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300% 300%;
+    height: 600px;
+  }
+  .Box_titre_profil {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding-left: 50px;
+  }
+  .titre_profil p {
+    font-variant-caps: all-small-caps;
+    margin-top: 0px;
+    font-size: 2em;
+    color: rgb(236, 234, 234);
+  }
+  .titre_profil h1 {
+    font-variant-caps: all-small-caps;
+    font-size: 3em;
+    color: white;
+    font-family: "Arial black" impact;
+  }
 }
-@media screen and (min-width: 360px) and (max-width: 1300px) {
+@media screen and (min-width: 360px) {
   h3 {
     display: none;
   }
@@ -130,17 +47,92 @@
     display: flex;
     justify-content: space-around;
   }
+  .Container_nav_presentation {
+    display: flex;
+    flex-flow: row;
+  }
+  .Container_nav_presentation h3 {
+    padding-left: 100px;
+    color: rgb(104, 104, 104);
+    font-variant-caps: all-small-caps;
+    font-size: 1.2;
+    font-family: "Arial black", impact;
+    letter-spacing: 5px;
+  }
+  .Box_navbar_presentation {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 100%;
+  }
   .Box_navbar_presentation article {
+    font-weight: lighter;
+    font-variant-caps: all-small-caps;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 12%;
+    color: rgb(138, 138, 138);
     height: 100%;
     font-size: 2vw;
   }
+  .Box_navbar_presentation article:hover {
+    background-color: black;
+    color: white;
+  }
 }
-@media screen and (min-width: 360px) and (max-width: 1300px) {
+@media screen and (min-width: 360px) {
   .Container_presentation {
     padding-bottom: 30px;
   }
+  .Container_presentation {
+    background-color: rgb(226, 226, 226);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .Container_presentation .Ligne {
+    background-color: black;
+    border: 1px black solid;
+    margin-right: 45%;
+    margin-left: 45%;
+  }
+  .Box_texte_presentation {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+  }
+  .Box_texte_presentation h2 {
+    font-weight: lighter;
+    font-variant-caps: all-small-caps;
+    color: rgb(82, 82, 82);
+    font-size: 2em;
+    letter-spacing: 5px;
+    margin-bottom: 5%;
+    margin-top: 0px;
+    padding-top: 10%;
+  }
+  .Box_texte_presentation .Box_texte_p {
+    height: 50%;
+  }
+  .Box_texte_presentation .Box_texte_p p {
+    font-size: 1.5em;
+    color: rgb(82, 82, 82);
+    font-weight: lighter;
+    font-variant-caps: all-small-caps;
+  }
+  .Box_texte_presentation .Box_texte_p span {
+    font-weight: bold;
+    font-style: italic;
+  }
+  .Box_texte_presentation .Box_texte_p .blue {
+    color: rgb(117, 200, 255);
+  }
 }
-@media screen and (min-width: 360px) and (max-width: 1300px) {
+@media screen and (min-width: 360px) {
   .Container_mes_travaux {
     padding-bottom: 30px;
     background-color: white;
@@ -172,24 +164,26 @@
     gap: 2%;
   }
   .Container_mes_travaux .Box_navbar_travaux article {
+    height: 40px;
     border: 1px rgb(226, 226, 226) outset;
     padding-right: 3px;
     padding-left: 3px;
     background-color: rgb(226, 226, 226);
-    font-weight: lighter;
+    font-weight: bold;
     font-variant-caps: all-small-caps;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 12%;
     color: rgb(56, 56, 56);
-    font-size: 2vw;
+    font-size: 2.2vw;
   }
   .Container_mes_travaux .Box_navbar_travaux article:hover {
     background-color: black;
     color: white;
   }
   .Container_mes_travaux .Box_bulle_travaux {
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -202,7 +196,7 @@
     gap: 10vw;
   }
 }
-@media screen and (min-width: 360px) and (max-width: 1300px) {
+@media screen and (min-width: 360px) {
   .Container_service {
     padding-bottom: 30px;
     background-color: rgb(226, 226, 226);
@@ -225,6 +219,7 @@
     margin-left: 45%;
   }
   .Container_service .Box_bulle_service {
+    margin-top: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
