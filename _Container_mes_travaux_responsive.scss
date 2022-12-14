@@ -1,0 +1,57 @@
+@media screen and ( min-width:360px ) and ( max-width:1300px )
+{
+    .Container_mes_travaux
+    {
+        background-color: white;
+        h2
+        {
+        font-weight: lighter;
+        font-variant-caps: all-small-caps;
+        color: rgb(82, 82, 82);
+        font-size: 2em;
+        letter-spacing: 5px;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 0px;
+        padding-top: 10%;
+        }
+        .Ligne
+    {
+        border: 1px black solid;
+        background: black;
+        margin-right: 45%;
+        margin-left: 45%;
+    }
+    .Box_navbar_travaux
+    {
+    height: 20px;    
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+    gap: 2%;
+    article
+    {
+        border: 1px rgb(226, 226, 226) outset;
+        padding-right: 3px;
+        padding-left: 3px;
+        background-color: rgb(226, 226, 226);
+        font-weight: lighter;
+        font-variant-caps: all-small-caps;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 12%;
+        color: rgb(56, 56, 56);
+        font-size: 2vw;
+        &:hover
+        {
+            background-color: black;
+            color: white;
+        }
+        
+    }
+    }
+    }
+}

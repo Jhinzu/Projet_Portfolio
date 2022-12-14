@@ -1,0 +1,17 @@
+@media screen and ( min-width:360px ) and ( max-width:1300px )
+{
+    .Container_profil
+    {
+        background-size: 200% 200%;
+        height: 100%;
+    }
+    .Box_titre_profil
+    {
+        padding: 0px;
+        .titre_profil
+        {
+            margin-top: 50px;
+            font-size: 0.7em;
+        }
+    }
+}

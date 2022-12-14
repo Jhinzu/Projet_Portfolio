@@ -1,7 +1,10 @@
 .Container_presentation
 {
     background-color:  rgb(226, 226, 226) ;
-    height: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     .Ligne
     {
         border: 1px black solid;
@@ -11,8 +14,12 @@
 }
 .Box_texte_presentation
 {
+    display: flex;
+    flex-flow: column;
     text-align: center;
-    padding-top: 50px ;
+    width: 80%;
+    height: 100%;
+    
     h2
     {
         font-weight: lighter;
@@ -20,5 +27,27 @@
         color: rgb(82, 82, 82);
         font-size: 2em;
         letter-spacing: 5px;
+        margin-bottom: 5%;
+        margin-top: 0px;
+        padding-top: 10%;
+    }
+    .Box_texte_p
+    {
+        height: 50%;
+        p
+        {
+        color: rgb(82, 82, 82);
+        font-weight: lighter;
+        font-variant-caps: all-small-caps;
+        }
+        span
+        {
+            font-weight: bold;
+            font-style: italic;
+        }
+        .blue
+        {
+            color: rgb(117, 200, 255);
+        }
     }
 }
