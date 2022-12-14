@@ -2,6 +2,7 @@
 {
     .Container_mes_travaux
     {
+        padding-bottom:30px;
         background-color: white;
         h2
         {
@@ -52,6 +53,22 @@
         }
         
     }
+    }
+    .Box_bulle_travaux
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        height: 200px;
+        
+        
+        .Lot_3
+        {
+            display: flex;
+            flex-flow: row;
+            gap: 10vw;
+        }
     }
     }
 }

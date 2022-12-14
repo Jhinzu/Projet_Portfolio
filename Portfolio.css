@@ -3,7 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300% 300%;
-  height: 700px;
+  height: 600px;
 }
 
 .Box_titre_profil {
@@ -109,14 +109,14 @@
 @media screen and (min-width: 360px) and (max-width: 1300px) {
   .Container_profil {
     background-size: 200% 200%;
-    height: 100%;
   }
   .Box_titre_profil {
     padding: 0px;
   }
   .Box_titre_profil .titre_profil {
-    margin-top: 50px;
-    font-size: 0.7em;
+    margin-left: 20px;
+    margin-top: 200px;
+    font-size: 1.5vw;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 1300px) {
@@ -136,7 +136,13 @@
   }
 }
 @media screen and (min-width: 360px) and (max-width: 1300px) {
+  .Container_presentation {
+    padding-bottom: 30px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 1300px) {
   .Container_mes_travaux {
+    padding-bottom: 30px;
     background-color: white;
   }
   .Container_mes_travaux h2 {
@@ -182,5 +188,52 @@
   .Container_mes_travaux .Box_navbar_travaux article:hover {
     background-color: black;
     color: white;
+  }
+  .Container_mes_travaux .Box_bulle_travaux {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 200px;
+  }
+  .Container_mes_travaux .Box_bulle_travaux .Lot_3 {
+    display: flex;
+    flex-flow: row;
+    gap: 10vw;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 1300px) {
+  .Container_service {
+    padding-bottom: 30px;
+    background-color: rgb(226, 226, 226);
+  }
+  .Container_service h2 {
+    font-weight: lighter;
+    font-variant-caps: all-small-caps;
+    color: rgb(82, 82, 82);
+    font-size: 2em;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 0px;
+    padding-top: 10%;
+  }
+  .Container_service .Ligne {
+    border: 1px black solid;
+    background: black;
+    margin-right: 45%;
+    margin-left: 45%;
+  }
+  .Container_service .Box_bulle_service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 200px;
+  }
+  .Container_service .Box_bulle_service .Lot_3 {
+    display: flex;
+    flex-flow: row;
+    gap: 10vw;
   }
 }/*# sourceMappingURL=Portfolio.css.map */
