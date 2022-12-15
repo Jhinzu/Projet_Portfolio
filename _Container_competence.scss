@@ -1,0 +1,82 @@
+@media screen and ( min-width:360px )
+{
+    .Box_competence_right
+    {
+        padding-bottom:30px;
+        background-color: white;
+        h2
+        {
+        padding-left:50px ;
+        padding-right: 50px;
+        font-weight: lighter;
+        font-variant-caps: all-small-caps;
+        color: rgb(82, 82, 82);
+        font-size: 2em;
+        letter-spacing: 5px;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 0px;
+        padding-top: 10%;
+        }
+    }    
+        .Ligne
+    {
+        border: 1px black solid;
+        background: black;
+        margin-right: 45%;
+        margin-left: 45%;
+    }
+    .Box_bar_competence
+    {
+        margin-top: 24px;
+        display: flex;
+        flex-flow: column;
+        gap: 10px;
+        padding-left: 5%;
+        padding-right: 5%;
+        .Bar_competence_html
+        {
+            border: 2px black;
+            border-radius: 5px;
+            background: linear-gradient(to right,  #f1322b 95% ,#e2e2e2 20%);
+            .fa-brands.fa-html5
+            {
+                margin-left: 5px;
+                color: white;
+            }
+        }
+        .Bar_competence_css
+        {
+            border: 2px black;
+            border-radius: 5px;
+            background: linear-gradient(to right,  #235988 80% ,#e2e2e2 20%);
+            .fa-brands.fa-css3
+            {
+                margin-left: 5px;
+                color: white;
+            }
+        }
+        .Bar_competence_javascript
+        {
+            border: 2px black;
+            border-radius: 5px;
+            background: linear-gradient(to right,  #e85f80 70% ,#e2e2e2 20%);
+            .fa-brands.fa-js
+            {
+                margin-left: 5px;
+                color: white;
+            }
+        }
+        .Bar_competence_php
+        {
+            border: 2px black;
+            border-radius: 5px;
+            background: linear-gradient(to right,  #5399c8 30% ,#e2e2e2 20%);
+            .fa-brands.fa-php
+            {
+                margin-left: 5px;
+                color: white;
+            }
+        }
+    }
+}
