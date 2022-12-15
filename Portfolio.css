@@ -43,10 +43,6 @@
   .Container_nav_presentation {
     height: 50px;
   }
-  .Box_navbar_presentation {
-    display: flex;
-    justify-content: space-around;
-  }
   .Container_nav_presentation {
     display: flex;
     flex-flow: row;
@@ -62,7 +58,7 @@
   .Box_navbar_presentation {
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
   }
   .Box_navbar_presentation article {
@@ -71,7 +67,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 12%;
+    width: 15%;
     color: rgb(138, 138, 138);
     height: 100%;
     font-size: 2vw;
@@ -166,6 +162,7 @@
   .Container_mes_travaux .Box_navbar_travaux article {
     height: 40px;
     border: 1px rgb(226, 226, 226) outset;
+    border-radius: 5px;
     padding-right: 3px;
     padding-left: 3px;
     background-color: rgb(226, 226, 226);
@@ -174,7 +171,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 12%;
+    width: 15%;
     color: rgb(56, 56, 56);
     font-size: 2.2vw;
   }

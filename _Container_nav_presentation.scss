@@ -8,15 +8,11 @@
     {
         height: 50px;
     }
-    .Box_navbar_presentation
-    {
-        display: flex;
-        justify-content: space-around;
-    }
     .Container_nav_presentation
     {
         display: flex;
         flex-flow: row;
+        
         h3
         {
             padding-left: 100px;
@@ -32,7 +28,7 @@
         
         display: flex;
         flex-flow: row;
-        justify-content: center;
+        justify-content: space-around;
         width: 100%;
         article
         {
@@ -41,7 +37,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            width: 12%;
+            width: 15%;
             color: rgb(138, 138, 138);
             height: 100%;
             font-size: 2vw;
@@ -50,7 +46,6 @@
                 background-color: black;
                 color: white;
             }
-            
         }
     }
 }
