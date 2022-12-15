@@ -1,0 +1,63 @@
+@media screen and ( min-width:360px )
+{
+    .Container_Contact
+    {
+        padding-bottom:30px;
+        background-color:  rgb(226, 226, 226);
+        h2
+        {
+        padding-left:50px ;
+        padding-right: 50px;
+        font-weight: lighter;
+        font-variant-caps: all-small-caps;
+        color: rgb(82, 82, 82);
+        font-size: 2em;
+        letter-spacing: 5px;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 0px;
+        padding-top: 10%;
+        }
+        .Box_contact
+        {
+            margin-top: 24px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            gap: 10px;
+            div
+            {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .imput_1
+            {
+                width: 50%;
+            }
+            .imput_2
+            {
+                width: 50%;
+                height: 150px;
+            }
+            .imput_3
+            {
+                border-radius: 4px;
+                height: 30px;
+                width: 50%;
+                color: white;
+                font-weight: bold;
+                font-variant-caps: all-small-caps;
+                background: rgb(34, 34, 34);
+            }
+        }
+    }    
+        .Ligne
+    {
+        border: 1px black solid;
+        background: black;
+        margin-right: 45%;
+        margin-left: 45%;
+    }
+
+}
