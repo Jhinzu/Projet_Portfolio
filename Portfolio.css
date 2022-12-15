@@ -1,27 +1,25 @@
 @media screen and (min-width: 360px) {
   .Container_profil {
-    background-size: 200% 200%;
+    background-size: 250% 250%;
   }
   .Box_titre_profil {
     padding: 0px;
   }
   .Box_titre_profil .titre_profil {
-    margin-left: 20px;
-    margin-top: 200px;
-    font-size: 1.5vw;
+    font-size: calc(0.3em + 1vw);
   }
   .Container_profil {
     background-image: linear-gradient(rgba(125, 125, 146, 0.5), rgba(123, 123, 253, 0.5)), url("Images/avatar_Design.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 300% 300%;
+    background-size: 230% 230%;
     height: 600px;
   }
   .Box_titre_profil {
     display: flex;
     align-items: flex-end;
     height: 100%;
-    padding-left: 50px;
+    padding-left: 2%;
   }
   .titre_profil p {
     font-variant-caps: all-small-caps;
@@ -106,7 +104,7 @@
     font-weight: lighter;
     font-variant-caps: all-small-caps;
     color: rgb(82, 82, 82);
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 5px;
     margin-bottom: 5%;
     margin-top: 0px;
@@ -270,8 +268,10 @@
     border: 2px black;
     border-radius: 5px;
     background: linear-gradient(to right, #f1322b 95%, #e2e2e2 20%);
+    height: 25px;
   }
   .Box_bar_competence .Bar_competence_html .fa-brands.fa-html5 {
+    margin-top: 5px;
     margin-left: 5px;
     color: white;
   }
@@ -279,8 +279,10 @@
     border: 2px black;
     border-radius: 5px;
     background: linear-gradient(to right, #235988 80%, #e2e2e2 20%);
+    height: 25px;
   }
   .Box_bar_competence .Bar_competence_css .fa-brands.fa-css3 {
+    margin-top: 5px;
     margin-left: 5px;
     color: white;
   }
@@ -288,8 +290,10 @@
     border: 2px black;
     border-radius: 5px;
     background: linear-gradient(to right, #e85f80 70%, #e2e2e2 20%);
+    height: 25px;
   }
   .Box_bar_competence .Bar_competence_javascript .fa-brands.fa-js {
+    margin-top: 5px;
     margin-left: 5px;
     color: white;
   }
@@ -297,8 +301,10 @@
     border: 2px black;
     border-radius: 5px;
     background: linear-gradient(to right, #5399c8 30%, #e2e2e2 20%);
+    height: 25px;
   }
   .Box_bar_competence .Bar_competence_php .fa-brands.fa-php {
+    margin-top: 5px;
     margin-left: 5px;
     color: white;
   }
